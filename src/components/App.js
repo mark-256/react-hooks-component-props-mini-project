@@ -5,7 +5,7 @@ import ArticleList from "./ArticleList";
 import blogData from "../data/blog";
 
 function App() {
-  // ✅ Destructure everything from blogData
+  // Destructure everything from blogData
   const { name, image, about, posts } = blogData;
 
   return (
